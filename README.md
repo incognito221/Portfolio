@@ -2,7 +2,7 @@
 
 ## Description
 
-Portfolio de développeur web réalisé dans le cadre du cours PHP & MySQL à l'ESTM.
+Portfolio de développeur web réalisé dans le cadre d'un examen PHP à faire à l'ESTM.
 Site multipage, responsive, conçu avec HTML, CSS et JavaScript.
 
 ## Structure du projet
@@ -35,12 +35,10 @@ portfolio/
 
 ## Technologies utilisées
 
-- HTML5
-- CSS3 (Flexbox, Grid, animations, media queries)
-- JavaScript (Vanilla)
-- Google Fonts (Sora, DM Sans)
-- Boxicons (icônes)
+- HTML
+- CSS
+- Javascript
 
 ## Auteur
 
-**Ahmadou mbacke diop** — Étudiant en L2 Informatique, ESTM Dakar
+**Ahmadou mbacke diop** — Étudiant en L2 Genie Logiciel Administration Reseau, ESTM Dakar
