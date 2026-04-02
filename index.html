@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Serigne Bamba Diop - Étudiant en informatique à l'ESTM, développeur web passionné.">
+    <title>Serigne Bamba Diop | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icônes Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/im2.jpeg" alt="Logo SB" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="pages/projets.html">Projets</a></li>
+                <li><a href="pages/contact.html" class="btn btn-primary" style="padding: 0.6rem 1.5rem;">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">Disponible pour des projets</div>
+                    <h1 class="hero-title">
+                        Salut, je suis<br>
+                        <span class="highlight">Serigne Bamba</span>
+                    </h1>
+                    <p class="hero-description">
+                        Étudiant en L2 Informatique à l'ESTM, passionné par le développement web et les systèmes embarqués. Je crée des solutions numériques qui allient fonctionnalité et design soigné.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="pages/projets.html" class="btn btn-primary">
+                            <i class='bx bx-folder-open'></i> Voir mes projets
+                        </a>
+                        <a href="pages/contact.html" class="btn btn-secondary">
+                            <i class='bx bx-envelope'></i> Me contacter
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-circle">
+                            <img src="images/im2.jpeg" alt="Serigne Bamba Diop" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                        </div>
+                        <div class="floating-tag tag-1">
+                            <span class="tag-icon"><i class='bx bxl-html5'></i></span> HTML / CSS
+                        </div>
+                        <div class="floating-tag tag-2">
+                            <span class="tag-icon"><i class='bx bxs-chip'></i></span> Arduino
+                        </div>
+                        <div class="floating-tag tag-3">
+                            <span class="tag-icon"><i class='bx bxl-python'></i></span> Python
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== À PROPOS ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid animate-on-scroll">
+                <div class="about-image">
+                    <img src="images/im1.jpeg" alt="Serigne Bamba Diop" style="width: 100%; border-radius: 1rem; object-fit: cover;">
+                </div>
+                <div class="about-text">
+                    <span class="section-label">À propos</span>
+                    <h2 class="section-title">Qui suis-je ?</h2>
+                    <p>
+                        Je m'appelle <strong>Ahmadou Mbacke Diop</strong>, J'ai 20 ans et je suis étudiant en deuxième année de Licence Informatique à l'<strong>ESTM</strong> (École Supérieure de Technologie et de Management).
+                    </p>
+                    <p>
+                        Passionné par la technologie depuis mon plus jeune âge, je m'intéresse autant au développement web qu'aux systèmes embarqués (Arduino, ESP32). Mon objectif est de construire des projets concrets qui résolvent de vrais problèmes.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <div class="label">Nom complet</div>
+                            <div class="value">Serigne Bamba Diop</div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="label">Surnom</div>
+                            <div class="value">chou chou des Khaniassa ta mere la timpe</div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="label">Âge</div>
+                            <div class="value">03 ans</div>
+                        </div>
+                        <div class="about-info-item">
+                            <div class="label">Formation</div>
+                            <div class="value">L2 Informatique — ESTM(thiotoundm diangoumako nk)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== COMPÉTENCES ========== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <span class="section-label">Compétences</span>
+            <h2 class="section-title">Mes technologies</h2>
+            <p class="section-subtitle">Les outils et langages que j'utilise au quotidien pour donner vie à mes projets.</p>
+
+            <div class="skills-grid">
+                <!-- Développement Web -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Langages de programmation -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon">
+                        <i class='bx bx-terminal'></i>
+                    </div>
+                    <h3>Langages de Programmation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Systèmes Embarqués -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon">
+                        <i class='bx bxs-chip'></i>
+                    </div>
+                    <h3>Systèmes Embarqués</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">ESP32</span>
+                        <span class="skill-tag">Capteurs</span>
+                        <span class="skill-tag">IoT</span>
+                    </div>
+                </div>
+
+                <!-- Outils -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-icon">
+                        <i class='bx bx-wrench'></i>
+                    </div>
+                    <h3>Outils & Environnement</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">XAMPP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== STATISTIQUES ========== -->
+    <section class="stats-section section" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="4">0</div>
+                    <div class="stat-label">Projets réalisés</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="6">0</div>
+                    <div class="stat-label">Langages maîtrisés</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="2">0</div>
+                    <div class="stat-label">Années d'apprentissage</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">% de motivation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPÉRIENCES / PARCOURS ========== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <span class="section-label">Parcours</span>
+            <h2 class="section-title">Mon parcours</h2>
+            <p class="section-subtitle">Les étapes importantes de mon cheminement académique et professionnel.</p>
+
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">2024 — Présent</div>
+                    <h3>Licence 2 — Informatique</h3>
+                    <div class="timeline-place">ESTM, Dakar</div>
+                    <p>Approfondissement des compétences en développement web (PHP, MySQL), programmation orientée objet et systèmes embarqués. Réalisation de projets concrets en équipe et en autonomie.</p>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">2023 — 2024</div>
+                    <h3>Licence 1 — Informatique</h3>
+                    <div class="timeline-place">ESTM, Dakar</div>
+                    <p>Découverte des fondamentaux : algorithmique, structures de données, bases du développement web (HTML, CSS, JavaScript) et initiation au langage C.</p>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">2023</div>
+                    <h3>Baccalauréat</h3>
+                    <div class="timeline-place">Dakar</div>
+                    <p>Obtention du baccalauréat, choix de poursuivre des études en informatique pour concrétiser une passion de longue date.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    SB<span>.</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Accueil</a>
+                    <a href="#about">À propos</a>
+                    <a href="pages/projets.html">Projets</a>
+                    <a href="pages/contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Serigne Bamba Diop. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
