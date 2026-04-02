@@ -1,174 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projets réalisés par Serigne Bamba Diop - Développement web, IoT, systèmes embarqués.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projets réalisés par Serigne Bamba Diop - Développement web, IoT, systèmes embarqués."
+    />
     <title>Mes Projets | Serigne Bamba Diop</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- ========== NAVBAR ========== -->
     <nav class="navbar" id="navbar">
-        <div class="container">
-            <a href="../index.html" class="nav-logo">
-                SB<span>.</span>
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="../index.html#about">À propos</a></li>
-                <li><a href="../index.html#skills">Compétences</a></li>
-                <li><a href="projets.html" class="active">Projets</a></li>
-                <li><a href="contact.html" class="btn btn-primary" style="padding: 0.6rem 1.5rem;">Contact</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+      <div class="container">
+        <a href="../index.html" class="nav-logo"> SB<span>.</span> </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../index.html#about">À propos</a></li>
+          <li><a href="../index.html#skills">Compétences</a></li>
+          <li><a href="projets.html" class="active">Projets</a></li>
+          <li>
+            <a
+              href="contact.html"
+              class="btn btn-primary"
+              style="padding: 0.6rem 1.5rem"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
 
     <!-- ========== HEADER ========== -->
     <section class="projects-hero">
-        <div class="container">
-            <span class="section-label">Portfolio</span>
-            <h1 class="section-title">Mes projets</h1>
-            <p class="section-subtitle">Chaque projet est une opportunité d'apprendre et de repousser mes limites. Voici un aperçu de mes réalisations.</p>
+      <div class="container">
+        <span class="section-label">Portfolio</span>
+        <h1 class="section-title">Mes projets</h1>
+        <p class="section-subtitle">
+          Chaque projet est une opportunité d'apprendre et de repousser mes
+          limites. Voici un aperçu de mes réalisations.
+        </p>
 
-            <!-- Barre de recherche -->
-            <div class="search-bar">
-                <i class='bx bx-search search-icon'></i>
-                <input type="text" id="searchInput" placeholder="Rechercher un projet par mot-clé..." aria-label="Rechercher un projet">
-            </div>
+        <!-- Barre de recherche -->
+        <div class="search-bar">
+          <i class="bx bx-search search-icon"></i>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Rechercher un projet par mot-clé..."
+            aria-label="Rechercher un projet"
+          />
         </div>
+      </div>
     </section>
 
     <!-- ========== PROJETS ========== -->
     <section class="section">
-        <div class="container">
-            <div class="projects-grid" id="projectsGrid">
-
-                <!-- Projet 1 -->
-                <div class="project-card animate-on-scroll" data-keywords="portfolio site web html css javascript design frontend">
-                    <div class="project-card-image" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
-                        <i class='bx bx-globe' style="color: var(--accent); position:relative; z-index:1;"></i>
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-card-number">Projet 01</div>
-                        <h3>Site web portfolio</h3>
-                        <p>
-                            Un portfolio de développeur conçu pour donner envie de me contacter, montrer mon niveau technique, et rester en ligne bien après la fin du cours. Ce projet me permet de démontrer mes compétences en développement web.
-                        </p>
-                        <div class="project-tech-tags">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Responsive</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 2 -->
-                <div class="project-card animate-on-scroll" data-keywords="repertoire telephonique contacts gestion telephone web application crud">
-                    <div class="project-card-image" style="background: linear-gradient(135deg, #0f2027, #203a43);">
-                        <i class='bx bx-phone-call' style="color: var(--accent); position:relative; z-index:1;"></i>
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-card-number">Projet 02</div>
-                        <h3>Gestion d'un répertoire téléphonique</h3>
-                        <p>
-                            Application de gestion de répertoire téléphonique permettant de stocker, rechercher et modifier les contacts. Développé avec les technologies web modernes pour offrir une interface utilisateur intuitive et réactive.
-                        </p>
-                        <div class="project-tech-tags">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">MySQL</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 3 -->
-                <div class="project-card animate-on-scroll" data-keywords="poubelle intelligente arduino capteur iot embarque electronique lcd buzzer temperature humidite ultrason">
-                    <div class="project-card-image" style="background: linear-gradient(135deg, #1b2a1b, #2d4a2d);">
-                        <i class='bx bx-recycle' style="color: var(--accent); position:relative; z-index:1;"></i>
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-card-number">Projet 03</div>
-                        <h3>Poubelle intelligente</h3>
-                        <p>
-                            Conception d'une poubelle intelligente qui s'ouvre automatiquement via un capteur de distance à 5 cm, affiche l'état (porte ouverte/fermée) sur un écran LCD I2C avec LED et buzzer, et publie en temps réel température, humidité et état des capteurs sur une page web.
-                        </p>
-                        <div class="project-tech-tags">
-                            <span class="tech-tag">Arduino</span>
-                            <span class="tech-tag">Capteur ultrason</span>
-                            <span class="tech-tag">LCD I2C</span>
-                            <span class="tech-tag">IoT</span>
-                            <span class="tech-tag">HTML</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 4 -->
-                <div class="project-card animate-on-scroll" data-keywords="esp32 electronique embarque controle domotique wifi bluetooth systeme">
-                    <div class="project-card-image" style="background: linear-gradient(135deg, #2a1a2e, #3d2044);">
-                        <i class='bx bxs-chip' style="color: var(--accent); position:relative; z-index:1;"></i>
-                    </div>
-                    <div class="project-card-content">
-                        <div class="project-card-number">Projet 04</div>
-                        <h3>Système ESP32</h3>
-                        <p>
-                            Conception d'un système basé sur le microcontrôleur ESP32 pour la gestion et le contrôle d'appareils électroniques à distance. Exploitation des capacités WiFi et Bluetooth de l'ESP32 pour une solution connectée et autonome.
-                        </p>
-                        <div class="project-tech-tags">
-                            <span class="tech-tag">ESP32</span>
-                            <span class="tech-tag">C++</span>
-                            <span class="tech-tag">WiFi</span>
-                            <span class="tech-tag">Bluetooth</span>
-                            <span class="tech-tag">IoT</span>
-                        </div>
-                    </div>
-                </div>
-
+      <div class="container">
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projet 1 -->
+          <div
+            class="project-card animate-on-scroll"
+            data-keywords="portfolio site web html css javascript design frontend"
+          >
+            <div
+              class="project-card-image"
+              style="background: linear-gradient(135deg, #1a1a2e, #16213e)"
+            >
+              <i
+                class="bx bx-globe"
+                style="color: var(--accent); position: relative; z-index: 1"
+              ></i>
             </div>
-
-            <!-- Message aucun résultat -->
-            <div class="no-results" id="noResults">
-                <i class='bx bx-search-alt' style="font-size: 3rem; display: block; margin-bottom: 1rem; color: var(--accent);"></i>
-                Aucun projet ne correspond à votre recherche.
+            <div class="project-card-content">
+              <div class="project-card-number">Projet 01</div>
+              <h3>Site web portfolio</h3>
+              <p>
+                Un portfolio de développeur conçu pour donner envie de me
+                contacter, montrer mon niveau technique, et rester en ligne bien
+                après la fin du cours. Ce projet me permet de démontrer mes
+                compétences en développement web.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
             </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div
+            class="project-card animate-on-scroll"
+            data-keywords="repertoire telephonique contacts gestion telephone web application crud"
+          >
+            <div
+              class="project-card-image"
+              style="background: linear-gradient(135deg, #0f2027, #203a43)"
+            >
+              <i
+                class="bx bx-phone-call"
+                style="color: var(--accent); position: relative; z-index: 1"
+              ></i>
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-number">Projet 02</div>
+              <h3>Gestion d'un répertoire téléphonique</h3>
+              <p>
+                Application de gestion de répertoire téléphonique permettant de
+                stocker, rechercher et modifier les contacts. Développé avec les
+                technologies web modernes pour offrir une interface utilisateur
+                intuitive et réactive.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 -->
+          <div
+            class="project-card animate-on-scroll"
+            data-keywords="poubelle intelligente arduino capteur iot embarque electronique lcd buzzer temperature humidite ultrason"
+          >
+            <div
+              class="project-card-image"
+              style="background: linear-gradient(135deg, #1b2a1b, #2d4a2d)"
+            >
+              <i
+                class="bx bx-recycle"
+                style="color: var(--accent); position: relative; z-index: 1"
+              ></i>
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-number">Projet 03</div>
+              <h3>Poubelle intelligente</h3>
+              <p>
+                Conception d'une poubelle intelligente qui s'ouvre
+                automatiquement via un capteur de distance à 5 cm, affiche
+                l'état (porte ouverte/fermée) sur un écran LCD I2C avec LED et
+                buzzer, et publie en temps réel température, humidité et état
+                des capteurs sur une page web.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">Capteur ultrason</span>
+                <span class="tech-tag">LCD I2C</span>
+                <span class="tech-tag">IoT</span>
+                <span class="tech-tag">HTML</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 4 -->
+          <div
+            class="project-card animate-on-scroll"
+            data-keywords="esp32 electronique embarque controle domotique wifi bluetooth systeme"
+          >
+            <div
+              class="project-card-image"
+              style="background: linear-gradient(135deg, #2a1a2e, #3d2044)"
+            >
+              <i
+                class="bx bxs-chip"
+                style="color: var(--accent); position: relative; z-index: 1"
+              ></i>
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-number">Projet 04</div>
+              <h3>Système ESP32</h3>
+              <p>
+                Conception d'un système basé sur le microcontrôleur ESP32 pour
+                la gestion et le contrôle d'appareils électroniques à distance.
+                Exploitation des capacités WiFi et Bluetooth de l'ESP32 pour une
+                solution connectée et autonome.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">WiFi</span>
+                <span class="tech-tag">Bluetooth</span>
+                <span class="tech-tag">IoT</span>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Message aucun résultat -->
+        <div class="no-results" id="noResults">
+          <i
+            class="bx bx-search-alt"
+            style="
+              font-size: 3rem;
+              display: block;
+              margin-bottom: 1rem;
+              color: var(--accent);
+            "
+          ></i>
+          Aucun projet ne correspond à votre recherche.
+        </div>
+      </div>
     </section>
 
     <!-- ========== FOOTER ========== -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    SB<span>.</span>
-                </div>
-                <div class="footer-links">
-                    <a href="../index.html">Accueil</a>
-                    <a href="../index.html#about">À propos</a>
-                    <a href="projets.html">Projets</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="footer-social">
-                    <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                &copy; 2025 Serigne Bamba Diop. Tous droits réservés.
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">SB<span>.</span></div>
+          <div class="footer-links">
+            <a href="../index.html">Accueil</a>
+            <a href="../index.html#about">À propos</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+          </div>
         </div>
+        <div class="footer-bottom">
+          &copy; 2026 Ahmadou Mbacke Diop. Tous droits réservés.
+        </div>
+      </div>
     </footer>
 
     <script src="../js/main.js"></script>
-</body>
+  </body>
 </html>

@@ -1,10 +1,12 @@
-# Portfolio — Serigne Bamba Diop
+# Portfolio — Ahmadou mbacke diop
 
 ## Description
+
 Portfolio de développeur web réalisé dans le cadre du cours PHP & MySQL à l'ESTM.
 Site multipage, responsive, conçu avec HTML, CSS et JavaScript.
 
 ## Structure du projet
+
 ```
 portfolio/
 ├── index.html              ← Page d'accueil (hero, à propos, compétences, stats, parcours)
@@ -20,6 +22,7 @@ portfolio/
 ```
 
 ## Fonctionnalités
+
 - Design responsive (mobile, tablette, desktop)
 - Navbar fixe avec effet de transparence au scroll
 - Menu hamburger sur mobile
@@ -31,6 +34,7 @@ portfolio/
 - Design sombre et épuré
 
 ## Technologies utilisées
+
 - HTML5
 - CSS3 (Flexbox, Grid, animations, media queries)
 - JavaScript (Vanilla)
@@ -38,4 +42,5 @@ portfolio/
 - Boxicons (icônes)
 
 ## Auteur
-**Serigne Bamba Diop** — Étudiant en L2 Informatique, ESTM Dakar
+
+**Ahmadou mbacke diop** — Étudiant en L2 Informatique, ESTM Dakar
