@@ -9,15 +9,15 @@ Site multipage, responsive, conçu avec HTML, CSS et JavaScript.
 
 ```
 portfolio/
-├── index.html              ← Page d'accueil (hero, à propos, compétences, stats, parcours)
+├── index.html
 ├── css/
-│   └── style.css           ← Feuille de style principale
+│   └── style.css
 ├── js/
-│   └── main.js             ← JavaScript (animations, recherche, formulaires)
+│   └── main.js
 ├── pages/
-│   ├── projets.html        ← Page des projets avec recherche par mots-clés
-│   └── contact.html        ← Page contact + formulaire demande de projet
-├── images/                 ← Dossier pour les images (ajouter vos photos)
+│   ├── projets.html
+│   └── contact.html
+├── images/
 └── README.md
 ```
 
